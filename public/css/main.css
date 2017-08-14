@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+.canvas-container {
+  position: relative;
+}
+
+canvas {
+  position: absolute;
+}
+
+#mask {
+  z-index: 1;
+}
+
+#main {
+  z-index: 0;
+}

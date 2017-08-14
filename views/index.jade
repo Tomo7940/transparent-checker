@@ -1,0 +1,10 @@
+html
+  head
+    title!= title
+    link(rel="stylesheet", href="css/main.css")
+    script(src="js/main.js")
+  body
+    h1!= message
+    div(class="canvas-container")
+      canvas(id="mask", width="512", height="512")
+      canvas(id="main", width="512", height="512")
